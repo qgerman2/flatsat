@@ -13,7 +13,7 @@ export default function () {
         });
     });
     return (
-        <div>
+        <div class="grid grid-cols-2">
             <For each={Object.values(clients_signal())}>
                 {(entry) => (
                     <div>
